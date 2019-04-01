@@ -33,6 +33,11 @@ pushd android
 ../gradlew build
 popd
 
+# Build android-interop-testing
+pushd android-interop-testing
+../gradlew build
+popd
+
 # Build examples
 
 cd ./examples/android/clientcache
